@@ -6,10 +6,12 @@ import Footer from './components/footer';
 import Header from './components/header';
 import Home from './components/home';
 import Projects from './components/projects';
+import './app.css';
+
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <Header />
       <Routes>
@@ -19,7 +21,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
-    </Router>
+      </>
   );
 }
 
