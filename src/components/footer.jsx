@@ -1,13 +1,14 @@
 import styled from '@emotion/styled';
 
 const FooterContainer = styled.footer`
-  background-color: #555;
+  background-color: #001F3F;
   color: white;
   padding: 1rem;
-  text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 `;
 
 function Footer() {
@@ -19,3 +20,4 @@ function Footer() {
 }
 
 export default Footer;
+
