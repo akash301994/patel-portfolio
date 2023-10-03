@@ -16,12 +16,18 @@ const ProfileImage = styled.img`
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
   margin-top: 20px; 
   object-fit: cover; 
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
 `;
 
 function Home() {
   return (
     <HomeContainer>
-      <h2>Welcome to My Portfolio</h2>
+      <h2>Welcome!</h2>
       <ProfileImage src={profileImg} alt="profile pic" />
     </HomeContainer>
   );
