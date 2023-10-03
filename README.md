@@ -55,8 +55,12 @@ To create a production build, run:
 npm run build
 \```
 
-## Contribution
+## Open the local
 
-Feel free to contribute to this project. Fork the repository, make your changes, and create a pull request. Any contributions are appreciated!
+\```
+npm run dev
+\```
+
+
 
 
