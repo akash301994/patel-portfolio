@@ -45,21 +45,7 @@ Ensure you have the following installed on your local machine:
    \```
 
 
-4. Open your browser and navigate to `http://localhost:3000` (or whatever port you've configured).
 
-## Building for production
-
-To create a production build, run:
-
-\```bash
-npm run build
-\```
-
-## Open the local
-
-\```
-npm run dev
-\```
 
 
 
