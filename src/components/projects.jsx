@@ -25,7 +25,7 @@ const Grid = styled.div`
 const Project = styled.a`
   display: block;
   padding: 1rem;
-  border: 1px solid white;
+  
   border-radius: 5px;
   text-decoration: none;
   min-height: 230px; 
@@ -41,7 +41,7 @@ const Project = styled.a`
     background-color: rgba(255, 255, 255, 0.1);
   }
   img {
-    width: 100%;     
+        
     max-width: 350px; 
     height: auto;    
     margin: 0 auto;  

@@ -23,7 +23,7 @@ Ensure you have the following installed on your local machine:
 
 1. **Clone the repository**
 
-   \```bash
+   \```
    git clone https://github.com/akash301994/patel-portfolio.git
    cd patel-portfolio
    \```
@@ -32,7 +32,7 @@ Ensure you have the following installed on your local machine:
 
    Using npm:
 
-   \```bash
+   \```
    npm install
    \```
 
@@ -40,7 +40,7 @@ Ensure you have the following installed on your local machine:
 
    Using Vite, you can start the development server:
 
-   \```bash
+   \```
    npm run dev
    \```
 
