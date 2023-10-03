@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const HeaderContainer = styled.header`
-  background-color: #444;
+background-color: #001F3F;
   color: white;
   padding: 1rem;
   text-align: center;
